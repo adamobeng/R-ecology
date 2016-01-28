@@ -57,7 +57,7 @@ assignment operator `<-` and the value we want to the object:
 weight_kg <- 55
 ```
 
-Objects can be given (almost) any name such as `x`, `current_temperature`, or
+Objects can be given ([almost](https://cran.r-project.org/doc/FAQ/R-FAQ.html#What-are-valid-names_003f)) any name such as `x`, `current_temperature`, or
 `subject_id`. You want your object names to be explicit and not too long. They
 cannot start with a number (`2x` is not valid but `x2` is). R is case sensitive
 (e.g., `weight_kg` is different from `Weight_kg`). There are some names that

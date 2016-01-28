@@ -87,7 +87,7 @@ head(surveys)
 ```
 
 An important feature of a `data.frame`is that each column is a vector, with the same type of data.
-We can see this when inspecting the __str__ucture of a `data.frame` with the
+We can see this when inspecting the structure of a `data.frame` with the
 function `str()`:
 
 ```{r, purl=FALSE}

@@ -34,8 +34,7 @@ represents a column, and each vector can be of a different data type (e.g.,
 characters, integers, factors). The `str()` function is useful to inspect the
 data types of the columns.
 
-A `data.frame` can be created by the functions `read.csv()` or `read.table()`, in
-other words, when importing spreadsheets from your hard drive (or the web).
+As well as specifying its contents in R directly, a `data.frame` can be created by using the functions `read.csv()` or `read.table()` to read into R tabular flat files or spreadsheets from your hard drive (or the web).
 
 By default, `data.frame` converts (= coerces) columns that contain characters
 (i.e., text) into the `factor` data type. Depending on what you want to do with

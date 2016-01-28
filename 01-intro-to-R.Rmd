@@ -50,14 +50,14 @@ You can get output from R simply by typing in math in the console
 ```
 
 However, to do useful and interesting things, we need to assign _values_ to
-_objects_. To create objects, we need to give it a name followed by the
-assignment operator `<-` and the value we want to give it:
+_objects_. To create objects, we need to specify a name followed by the
+assignment operator `<-` and the value we want to the object:
 
 ```{r, purl=FALSE}
 weight_kg <- 55
 ```
 
-Objects can be given any name such as `x`, `current_temperature`, or
+Objects can be given (almost) any name such as `x`, `current_temperature`, or
 `subject_id`. You want your object names to be explicit and not too long. They
 cannot start with a number (`2x` is not valid but `x2` is). R is case sensitive
 (e.g., `weight_kg` is different from `Weight_kg`). There are some names that

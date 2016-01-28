@@ -47,7 +47,7 @@ single animal, and the columns represent:
 | plot\_type       | type of plot                       |
 
 We are going to use the R function `download.file()` to download the CSV file
-that contains the survey data from figshare, and we will use `read.csv()` to
+that contains the survey data from figshare.com, and we will use `read.csv()` to
 load into memory (as a `data.frame`) the content of the CSV file.
 
 To download the data into the `data/` subdirectory, do:

@@ -65,7 +65,11 @@ surveys <- read.csv('data/portal_data_joined.csv')
 
 This statement doesn't produce any output because assignment doesn't display
 anything. If we want to check that our data has been loaded, we can print the
-variable's value: `surveys`
+variable's value:
+
+```{r, eval = TRUE, purl = FALSE}
+surveys
+```
 
 Alternatively, wrapping an assignment in parentheses will perform the assignment
 and display it at the same time.

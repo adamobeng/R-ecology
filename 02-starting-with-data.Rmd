@@ -32,7 +32,7 @@ single animal, and the columns represent:
 
 | Column           | Description                        |
 |------------------|------------------------------------|
-| record\_id       | Unique id for the observation      |
+| record\_id       | unique id for the observation      |
 | month            | month of observation               |
 | day              | day of observation                 |
 | year             | year of observation                |

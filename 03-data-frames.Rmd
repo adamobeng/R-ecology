@@ -165,9 +165,21 @@ counting at 1, because that's what human beings typically do. Languages in the C
 family however (including C++, Java, Perl, and Python) start from 0 because that's
 simpler for computers to do.
 
-`:` is a special function that creates numeric vectors of integers in increasing
-or decreasing order, test `1:10` and `10:1` for instance. The function `seq()`
-(for __seq__uence) can be used to create more complex patterns:
+`:` is an operator that creates numeric vectors of integers in increasing
+or decreasing order:
+
+```{r, results='show', purl=FALSE}
+1:10
+10:1
+```
+
+In fact, `:` is shorthand for the the function `seq()` (for *seq*uence):
+```{r, results='show', purl=FALSE}
+2:7
+seq(2,7)
+```
+
+`seq()` can be used to create vectors with more complex patterns:
 
 ```{r, results='show', purl=FALSE}
 seq(1, 10, by=2)

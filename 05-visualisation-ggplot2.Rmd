@@ -238,7 +238,7 @@ measured. To do that we need to make counts in dataframe grouped by sex.
 
 > ### Challenges:
 >
-> - filter the dataframe so that we only keep records with sex "F" or "M"s
+> - filter the dataframe to only include records with sex either "F" or "M"
 >
 
 ```{r}

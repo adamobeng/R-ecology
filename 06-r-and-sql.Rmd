@@ -33,12 +33,10 @@ and can be easily reproduced later by yourself or others.
 
 R can connect to databases through a number of packages.  In our case we we will
 use [RSQLite](http://cran.r-project.org/web/packages/RSQLite/index.html) to
-connect to existing SQLite3 databases.  However you should be able to connect on
-almost any database in R via
-JDBC[http://cran.r-project.org/web/packages/RJDBC/index.html](http://cran.r-project.org/web/packages/RJDBC/index.html)
-or [ODBC](http://cran.r-project.org/web/packages/RODBC/index.html), or specific
-database packages (such as we are doing, or
-[MySQL](http://cran.r-project.org/web/packages/RMySQL/index.html) ).
+connect to existing SQLite3 databases.  However you should be able to connect to
+almost any database in R via generic database packages like
+[RJDBC](http://cran.r-project.org/web/packages/RJDBC/index.html) or [RODBC](http://cran.r-project.org/web/packages/RODBC/index.html), or specific packages (like RSQLite or
+[RMySQL](http://cran.r-project.org/web/packages/RMySQL/index.html) ).
 
 To begin these exercises we'll connect to the mammal database you've just
 created. We'll need the RSQLite library to be sure to install it

@@ -113,8 +113,8 @@ plot(x = surveys_complete$weight, y = surveys_complete$hindfoot_length)
 We will make the same plot using `ggplot2` package.
 
 `ggplot2` is a plotting package that makes it simple to create complex plots
-from data in a dataframe. It uses default settings, which help creating
-publication quality plots with minimal amount of settings and tweaking.
+from data in a dataframe. Its default settings are tuned for publication-quality plots,
+which require minimal tweaking.
 
 With ggplot graphics are build step by step by adding new elements.
 

@@ -116,7 +116,7 @@ We will make the same plot using `ggplot2` package.
 from data in a dataframe. Its default settings are tuned for publication-quality plots,
 which require minimal tweaking.
 
-With ggplot graphics are build step by step by adding new elements.
+With ggplot graphics are built up layer-by-layer by adding new elements (a so-called "[Grammar of Graphics]()http://vita.had.co.nz/papers/layered-grammar.html").
 
 To build a ggplot we need to:
 

@@ -186,7 +186,7 @@ Play around with the order of geoms and adjust transparency to see how to build 
 
 > ### Challenge
 >
-> Create boxplot for `hindfoot_length`.
+> Create a boxplot for `hindfoot_length`.
 
 ## Plotting time series data
 

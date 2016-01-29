@@ -22,15 +22,12 @@ if (file.exists("portalR.db")) file.remove("portalR.db")
 
 # Introduction
 
-Interacting with databases through scripted languages can offer advantages over
-querying databases via a GUI interface.  A GUI interface for your database is
-easier to use and allows the quick viewing of adhoc queries.  Querying a
-database with a programatic interface (in this case R, but it could be any
-language) are slightly more complicated.  However the trade-off is that data
-manipulations are preserved in the code.  Aggregations, summaries and other
-database operations are preserved.  Therefore those pre-analysis data
-manipulation steps are not lost and can be reproduced later by yourself or
-others.
+Interacting with databases through scripting languages can offer advantages over
+querying databases via a graphical user interface (GUI).  A GUI might be
+easier to use for quickly viewing of adhoc queries, but the queries
+you have performed are preserved in the code. This is key for reproducible research:
+all of the manipulation steps that lead to your result are preserved
+and can be easily reproduced later by yourself or others.
 
 # Connecting R to sqlite databases
 
